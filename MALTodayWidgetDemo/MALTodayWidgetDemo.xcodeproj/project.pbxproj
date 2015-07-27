@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		684CC5B01B62194E002E1FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 684CC5AF1B62194E002E1FD6 /* main.m */; };
+		684CC5B31B62194E002E1FD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 684CC5B21B62194E002E1FD6 /* AppDelegate.m */; };
+		684CC5B61B62194E002E1FD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684CC5B51B62194E002E1FD6 /* ViewController.m */; };
+		684CC5B91B62194E002E1FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684CC5B71B62194E002E1FD6 /* Main.storyboard */; };
+		684CC5BB1B62194E002E1FD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684CC5BA1B62194E002E1FD6 /* Images.xcassets */; };
+		684CC5BE1B62194E002E1FD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684CC5BC1B62194E002E1FD6 /* LaunchScreen.xib */; };
+		684CC5CA1B62194E002E1FD6 /* MALTodayWidgetDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684CC5C91B62194E002E1FD6 /* MALTodayWidgetDemoTests.m */; };
+		684CC5DA1B621983002E1FD6 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684CC5D91B621983002E1FD6 /* NotificationCenter.framework */; };
+		684CC5E01B621983002E1FD6 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684CC5DF1B621983002E1FD6 /* TodayViewController.m */; };
+		684CC5E21B621983002E1FD6 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684CC5E11B621983002E1FD6 /* MainInterface.storyboard */; };
+		684CC5E51B621983002E1FD6 /* MALWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 684CC5D71B621983002E1FD6 /* MALWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		686FBA371B62360200A92746 /* AppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 686FBA351B62360200A92746 /* AppCell.m */; };
+		686FBA381B62360200A92746 /* AppCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 686FBA361B62360200A92746 /* AppCell.xib */; };
+		686FBA3B1B6236C400A92746 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684CC5BA1B62194E002E1FD6 /* Images.xcassets */; };
+		686FBA3E1B62373700A92746 /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 686FBA3D1B62373700A92746 /* AppModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		684CC5C41B62194E002E1FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684CC5A21B62194E002E1FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684CC5A91B62194E002E1FD6;
+			remoteInfo = MALTodayWidgetDemo;
+		};
+		684CC5E31B621983002E1FD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684CC5A21B62194E002E1FD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684CC5D61B621983002E1FD6;
+			remoteInfo = MALWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		684CC5E91B621983002E1FD6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				684CC5E51B621983002E1FD6 /* MALWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		684CC5AA1B62194E002E1FD6 /* MALTodayWidgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MALTodayWidgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		684CC5AE1B62194E002E1FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684CC5AF1B62194E002E1FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		684CC5B11B62194E002E1FD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		684CC5B21B62194E002E1FD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		684CC5B41B62194E002E1FD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		684CC5B51B62194E002E1FD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		684CC5B81B62194E002E1FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		684CC5BA1B62194E002E1FD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		684CC5BD1B62194E002E1FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		684CC5C31B62194E002E1FD6 /* MALTodayWidgetDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MALTodayWidgetDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		684CC5C81B62194E002E1FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684CC5C91B62194E002E1FD6 /* MALTodayWidgetDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MALTodayWidgetDemoTests.m; sourceTree = "<group>"; };
+		684CC5D71B621983002E1FD6 /* MALWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MALWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		684CC5D91B621983002E1FD6 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		684CC5DD1B621983002E1FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684CC5DE1B621983002E1FD6 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		684CC5DF1B621983002E1FD6 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		684CC5E11B621983002E1FD6 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		686FBA341B62360200A92746 /* AppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCell.h; sourceTree = "<group>"; };
+		686FBA351B62360200A92746 /* AppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCell.m; sourceTree = "<group>"; };
+		686FBA361B62360200A92746 /* AppCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppCell.xib; sourceTree = "<group>"; };
+		686FBA3C1B62373700A92746 /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		686FBA3D1B62373700A92746 /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		686FBA3F1B6240D900A92746 /* MALTodayWidgetDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MALTodayWidgetDemo.entitlements; sourceTree = "<group>"; };
+		686FBA401B62412E00A92746 /* MALWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MALWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684CC5A71B62194E002E1FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CC5C01B62194E002E1FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CC5D41B621983002E1FD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684CC5DA1B621983002E1FD6 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		684CC5A11B62194E002E1FD6 = {
+			isa = PBXGroup;
+			children = (
+				684CC5AC1B62194E002E1FD6 /* MALTodayWidgetDemo */,
+				684CC5C61B62194E002E1FD6 /* MALTodayWidgetDemoTests */,
+				684CC5DB1B621983002E1FD6 /* MALWidget */,
+				684CC5D81B621983002E1FD6 /* Frameworks */,
+				684CC5AB1B62194E002E1FD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		684CC5AB1B62194E002E1FD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684CC5AA1B62194E002E1FD6 /* MALTodayWidgetDemo.app */,
+				684CC5C31B62194E002E1FD6 /* MALTodayWidgetDemoTests.xctest */,
+				684CC5D71B621983002E1FD6 /* MALWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		684CC5AC1B62194E002E1FD6 /* MALTodayWidgetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				686FBA3F1B6240D900A92746 /* MALTodayWidgetDemo.entitlements */,
+				684CC5B11B62194E002E1FD6 /* AppDelegate.h */,
+				684CC5B21B62194E002E1FD6 /* AppDelegate.m */,
+				684CC5B41B62194E002E1FD6 /* ViewController.h */,
+				684CC5B51B62194E002E1FD6 /* ViewController.m */,
+				684CC5B71B62194E002E1FD6 /* Main.storyboard */,
+				684CC5BA1B62194E002E1FD6 /* Images.xcassets */,
+				684CC5BC1B62194E002E1FD6 /* LaunchScreen.xib */,
+				684CC5AD1B62194E002E1FD6 /* Supporting Files */,
+			);
+			path = MALTodayWidgetDemo;
+			sourceTree = "<group>";
+		};
+		684CC5AD1B62194E002E1FD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				684CC5AE1B62194E002E1FD6 /* Info.plist */,
+				684CC5AF1B62194E002E1FD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684CC5C61B62194E002E1FD6 /* MALTodayWidgetDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				684CC5C91B62194E002E1FD6 /* MALTodayWidgetDemoTests.m */,
+				684CC5C71B62194E002E1FD6 /* Supporting Files */,
+			);
+			path = MALTodayWidgetDemoTests;
+			sourceTree = "<group>";
+		};
+		684CC5C71B62194E002E1FD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				684CC5C81B62194E002E1FD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684CC5D81B621983002E1FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				684CC5D91B621983002E1FD6 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		684CC5DB1B621983002E1FD6 /* MALWidget */ = {
+			isa = PBXGroup;
+			children = (
+				686FBA401B62412E00A92746 /* MALWidget.entitlements */,
+				684CC5DE1B621983002E1FD6 /* TodayViewController.h */,
+				684CC5DF1B621983002E1FD6 /* TodayViewController.m */,
+				686FBA3C1B62373700A92746 /* AppModel.h */,
+				686FBA3D1B62373700A92746 /* AppModel.m */,
+				686FBA341B62360200A92746 /* AppCell.h */,
+				686FBA351B62360200A92746 /* AppCell.m */,
+				686FBA361B62360200A92746 /* AppCell.xib */,
+				684CC5E11B621983002E1FD6 /* MainInterface.storyboard */,
+				684CC5DC1B621983002E1FD6 /* Supporting Files */,
+			);
+			path = MALWidget;
+			sourceTree = "<group>";
+		};
+		684CC5DC1B621983002E1FD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				684CC5DD1B621983002E1FD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		684CC5A91B62194E002E1FD6 /* MALTodayWidgetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684CC5CD1B62194E002E1FD6 /* Build configuration list for PBXNativeTarget "MALTodayWidgetDemo" */;
+			buildPhases = (
+				684CC5A61B62194E002E1FD6 /* Sources */,
+				684CC5A71B62194E002E1FD6 /* Frameworks */,
+				684CC5A81B62194E002E1FD6 /* Resources */,
+				684CC5E91B621983002E1FD6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684CC5E41B621983002E1FD6 /* PBXTargetDependency */,
+			);
+			name = MALTodayWidgetDemo;
+			productName = MALTodayWidgetDemo;
+			productReference = 684CC5AA1B62194E002E1FD6 /* MALTodayWidgetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		684CC5C21B62194E002E1FD6 /* MALTodayWidgetDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684CC5D01B62194E002E1FD6 /* Build configuration list for PBXNativeTarget "MALTodayWidgetDemoTests" */;
+			buildPhases = (
+				684CC5BF1B62194E002E1FD6 /* Sources */,
+				684CC5C01B62194E002E1FD6 /* Frameworks */,
+				684CC5C11B62194E002E1FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684CC5C51B62194E002E1FD6 /* PBXTargetDependency */,
+			);
+			name = MALTodayWidgetDemoTests;
+			productName = MALTodayWidgetDemoTests;
+			productReference = 684CC5C31B62194E002E1FD6 /* MALTodayWidgetDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		684CC5D61B621983002E1FD6 /* MALWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684CC5E61B621983002E1FD6 /* Build configuration list for PBXNativeTarget "MALWidget" */;
+			buildPhases = (
+				684CC5D31B621983002E1FD6 /* Sources */,
+				684CC5D41B621983002E1FD6 /* Frameworks */,
+				684CC5D51B621983002E1FD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MALWidget;
+			productName = MALWidget;
+			productReference = 684CC5D71B621983002E1FD6 /* MALWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		684CC5A21B62194E002E1FD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wangtian;
+				TargetAttributes = {
+					684CC5A91B62194E002E1FD6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = F99FH9TB6L;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					684CC5C21B62194E002E1FD6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 684CC5A91B62194E002E1FD6;
+					};
+					684CC5D61B621983002E1FD6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = F99FH9TB6L;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 684CC5A51B62194E002E1FD6 /* Build configuration list for PBXProject "MALTodayWidgetDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 684CC5A11B62194E002E1FD6;
+			productRefGroup = 684CC5AB1B62194E002E1FD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				684CC5A91B62194E002E1FD6 /* MALTodayWidgetDemo */,
+				684CC5C21B62194E002E1FD6 /* MALTodayWidgetDemoTests */,
+				684CC5D61B621983002E1FD6 /* MALWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		684CC5A81B62194E002E1FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684CC5B91B62194E002E1FD6 /* Main.storyboard in Resources */,
+				684CC5BE1B62194E002E1FD6 /* LaunchScreen.xib in Resources */,
+				684CC5BB1B62194E002E1FD6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CC5C11B62194E002E1FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CC5D51B621983002E1FD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686FBA3B1B6236C400A92746 /* Images.xcassets in Resources */,
+				684CC5E21B621983002E1FD6 /* MainInterface.storyboard in Resources */,
+				686FBA381B62360200A92746 /* AppCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		684CC5A61B62194E002E1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684CC5B61B62194E002E1FD6 /* ViewController.m in Sources */,
+				684CC5B31B62194E002E1FD6 /* AppDelegate.m in Sources */,
+				684CC5B01B62194E002E1FD6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CC5BF1B62194E002E1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684CC5CA1B62194E002E1FD6 /* MALTodayWidgetDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684CC5D31B621983002E1FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684CC5E01B621983002E1FD6 /* TodayViewController.m in Sources */,
+				686FBA3E1B62373700A92746 /* AppModel.m in Sources */,
+				686FBA371B62360200A92746 /* AppCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		684CC5C51B62194E002E1FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684CC5A91B62194E002E1FD6 /* MALTodayWidgetDemo */;
+			targetProxy = 684CC5C41B62194E002E1FD6 /* PBXContainerItemProxy */;
+		};
+		684CC5E41B621983002E1FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684CC5D61B621983002E1FD6 /* MALWidget */;
+			targetProxy = 684CC5E31B621983002E1FD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		684CC5B71B62194E002E1FD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684CC5B81B62194E002E1FD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		684CC5BC1B62194E002E1FD6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684CC5BD1B62194E002E1FD6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		684CC5CB1B62194E002E1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		684CC5CC1B62194E002E1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		684CC5CE1B62194E002E1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MALTodayWidgetDemo/MALTodayWidgetDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MALTodayWidgetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		684CC5CF1B62194E002E1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MALTodayWidgetDemo/MALTodayWidgetDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MALTodayWidgetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		684CC5D11B62194E002E1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MALTodayWidgetDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MALTodayWidgetDemo.app/MALTodayWidgetDemo";
+			};
+			name = Debug;
+		};
+		684CC5D21B62194E002E1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MALTodayWidgetDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MALTodayWidgetDemo.app/MALTodayWidgetDemo";
+			};
+			name = Release;
+		};
+		684CC5E71B621983002E1FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MALWidget/MALWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MALWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		684CC5E81B621983002E1FD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MALWidget/MALWidget.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MALWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		684CC5A51B62194E002E1FD6 /* Build configuration list for PBXProject "MALTodayWidgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684CC5CB1B62194E002E1FD6 /* Debug */,
+				684CC5CC1B62194E002E1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684CC5CD1B62194E002E1FD6 /* Build configuration list for PBXNativeTarget "MALTodayWidgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684CC5CE1B62194E002E1FD6 /* Debug */,
+				684CC5CF1B62194E002E1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684CC5D01B62194E002E1FD6 /* Build configuration list for PBXNativeTarget "MALTodayWidgetDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684CC5D11B62194E002E1FD6 /* Debug */,
+				684CC5D21B62194E002E1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684CC5E61B621983002E1FD6 /* Build configuration list for PBXNativeTarget "MALWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684CC5E71B621983002E1FD6 /* Debug */,
+				684CC5E81B621983002E1FD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 684CC5A21B62194E002E1FD6 /* Project object */;
+}
