@@ -42,7 +42,7 @@
 
 - (UIEdgeInsets)widgetMarginInsetsForProposedMarginInsets:(UIEdgeInsets)defaultMarginInsets
 {
-    return UIEdgeInsetsMake(defaultMarginInsets.top, 20.f, defaultMarginInsets.bottom, defaultMarginInsets.right);
+    return UIEdgeInsetsZero;
 }
 
 - (void)widgetPerformUpdateWithCompletionHandler:(void (^)(NCUpdateResult))completionHandler
